@@ -1,0 +1,26 @@
+{
+  "name": "nodejs-hs-project",
+  "version": "1.0.0",
+  "description": "this server for iot project",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "nodejs",
+    "express",
+    "mongodb",
+    "mongoose",
+    "bluetooth"
+  ],
+  "author": "skr",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.1",
+    "cors": "^2.8.5",
+    "express": "^4.17.2",
+    "mongoose": "^6.1.8",
+    "noble": "^1.9.1",
+    "node-gyp": "^8.4.1"
+  }
+}
